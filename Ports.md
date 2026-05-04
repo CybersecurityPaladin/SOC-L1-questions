@@ -1,0 +1,26 @@
+﻿53 - DNS  
+80,8080 - HTTP  
+443 - HTTPS  
+22 - SSH  
+67,68 - DHCP  
+3389 - RDP  
+21,20 - FTP  
+445 - SMB  
+25,465,587 - SMTP  
+110,995 - POP3  
+143,993 - IMAP  
+
+23 - Telnet  
+69 - TFTP  
+123 - NTP  
+137,138,139 - NetBIOS  
+161,162 - SNMP  
+389,636 - LDAP  
+
+1433 - Microsoft SQL  
+1521 - Oracle  
+3306 - MySQL  
+5432 - PostgreSQL  
+5900 - VNC  
+
+500,4500 - IPsec VPN  
