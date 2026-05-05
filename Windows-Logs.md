@@ -1,4 +1,4 @@
-﻿# Windows Logs
+# Windows Logs
 
 **All logs:**  
 [eventvwr.msc](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)  
@@ -9,84 +9,83 @@
 
 ### The most popular from <ins>eventvwr.msc</ins>
 
-<ins>**Authentication & Logon**</ins>  
-**4624** — Successful logon.  
-**4625** — Failed logon attempt.   
-  **4634** — Logoff. 
-  **4648** — Logon with explicit credentials.  
-**4672** — Privileged logon.  
-  **4768** — Kerberos TGT request.  
-  **4769** — Kerberos service ticket request.  
-  **4771** — Kerberos pre-authentication failed.  
-  **4776** — NTLM authentication.  
+**1102** - event log cleared.  
+**4624** - successful logon.  
+**4625** - failed logon.  
+**4634** - logoff.  
+**4648** - logon with explicit credentials.  
+**4672** - special privileges assigned.  
 
-<ins>**Account Management**</ins>  
-**4720** — User account created.  
-**4722** — User account enabled.  
-**4723** — Password change attempt.  
-  **4724** — Password reset.  
-  **4725** — User account disabled.  
-  **4726** — User account deleted.  
-  **4738** — User account changed.  
+**4688** - process creation.  
+**4689** - process termination.  
 
-<ins>**Group & Privilege Changes**</ins>  
-**4728 / 4732 / 4756** — User added to a group.  
-**4729 / 4733 / 4757** — User removed from a group.  
- **4735 / 4737** — Group modified.  
-  **4670** — Permissions on an object changed.  
+**4697** - service installed.  
 
-<ins>**Process Execution**</ins>  
-  **4688** — Process creation (high-value event).  
-  **4689** — Process termination.  
+**4720** - user account created.  
+**4726** - user account deleted.  
+**4732** - user added to security group.  
+**4733** - user removed from security group.  
 
-<ins>**System Events**</ins>  
-  **4608** — Windows startup.  
-  **4609** — System shutdown.  
-  **4616** — System time changed.  
+**4768** - Kerberos authentication ticket (TGT) requested.  
+**4769** - Kerberos service ticket requested.  
+**4771** - Kerberos pre-authentication failed.  
 
-<ins>**Audit Policy Changes**</ins>  
-  **4719** — Audit policy changed.  
-  **4902 / 4904 / 4905** — Audit settings modified.  
+**5140** - network share accessed.  
+**5145** - detailed file share access.  
 
-<ins>**Remote Access / RDP**</ins>  
-  **4778** — RDP session reconnected.  
-  **4779** — RDP session disconnected.  
-
-<ins>**Log Tampering (Critical)**</ins>  
-  **1102** — Security log cleared.  
+**7045** - service created.  
 
 ---
 
 ### The most popular from <ins>Sysmon</ins>
 
-<ins>**Process & Execution**</ins>  
+  
 **1** — Process creation (command line, parent, hashes).  
-  **5** — Process terminated.  
-
-<ins>**Network Activity**</ins>  
+**2** — File creation time changed (timestomping).  
 **3** — Network connection (IP, port, process).  
-  **22** — DNS query (domain resolution).  
-
-<ins>**File & Image Activity**</ins>  
-**7** — Image (DLL) loaded.  
-  **11** — File created.  
-  **15** — FileCreateStreamHash (Alternate Data Streams).  
-  **2** — File creation time changed (timestomping).  
-
-<ins>**Process Injection & Access**</ins>  
-**8** — CreateRemoteThread (code injection).  
-  **10** — Process access (e.g., LSASS access).  
-
-<ins>**Registry & Persistence**</ins>  
-**12** — Registry object created/deleted.  
-  **13** — Registry value set.  
-  **14** — Registry object renamed.  
-
-<ins>**System & Drivers**</ins>  
+**5** — Process terminated.  
 **6** — Driver loaded.  
-  **9** — RawAccessRead (direct disk access).  
-  **16** — Sysmon configuration change.  
-
-<ins>**Lateral Movement & IPC**</ins>  
+**7** — Image (DLL) loaded.  
+**8** — CreateRemoteThread (code injection).  
+**9** — RawAccessRead (direct disk access). 
+**10** — Process access (e.g., LSASS access). 
+**11** — File created. 
+**12** — Registry object created/deleted.
+**13** — Registry value set.  
+**14** — Registry object renamed.  
+**15** — FileCreateStreamHash (Alternate Data Streams). 
+**16** — Sysmon configuration change. 
 **17** — Pipe created.  
-  **18** — Pipe connected.  
+**18** — Pipe connected.  
+**22** — DNS query (domain resolution). 
+
+---
+
+### Logon Types:
+**2** - Interactive (logon at the console of the local machine).  
+**3** - Network (access to shared resources over the network).  
+**4** - Batch (logon for batch processes, such as scheduled tasks).  
+**5** - Service (logon for a service account)
+**7** - Unlock (workstation unlock).  
+**8** - NetworkCleartext (network logon with cleartext credentials).  
+**9** - NewCredentials (logon with alternate credentials, e.g., RunAs /netonly).  
+**10** - RemoteInteractive (logon via Remote Desktop or Terminal Services).  
+**11** - CachedInteractive (logon using cached domain credentials).  
+
+  
+
+ 
+
+
+ 
+
+ 
+  
+ 
+
+ 
+ 
+
+
+
+ 
