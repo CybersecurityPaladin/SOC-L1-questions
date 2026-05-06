@@ -95,7 +95,6 @@ is an application-layer protocol used for communication between a client and a w
 
 <ins>**18: HTTPS**</ins>  
 is HTTP over TLS encryption.
-It ensures data confidentiality, integrity, and authentication via certificates.
 
 <ins>**19: Transport Layer Security (TLS)**</ins>  
 Is a security protocol that provides privacy and data integrity for Internet communications. SSL is older version of TLS. 
