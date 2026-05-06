@@ -97,7 +97,7 @@ is an application-layer protocol used for communication between a client and a w
 is HTTP over TLS encryption.
 
 <ins>**19: Transport Layer Security (TLS)**</ins>  
-Is a security protocol that provides privacy(enceyption), integrity(hashing) and  authenication(sertificates). SSL is older version of TLS. 
+Is a security protocol that provides privacy(enceyption), integrity(hashing) and  authenication(certificates). SSL is older version of TLS. 
 
 <ins>**20: Structured Query Language Injection**</ins>  
 is an attack where inserts malicious SQL code into input fields to manipulate database queries.  
