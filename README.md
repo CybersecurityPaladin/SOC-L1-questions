@@ -148,11 +148,23 @@ Malware, short for malicious software, refers to any intrusive software develope
 **Actions** - perform attack  
 
 <ins>**27: Persistence malware**</ins>    
-**Survives reboot** - maintains access   
-**Registry** - auto run   
-**Startup** - run on boot   
-**Tasks** - scheduled execution   
-**Services** - background process
+**Registry autorun** - auto start entries (check Run keys, monitor new values)  
+**Scheduled tasks** - timed execution (audit task creation, review triggers)  
+**Services** - background startup (check new/modified services, verify binaries)  
+**WMI persistence** - event subscriptions (query WMI subscriptions, detect consumers)  
+**Startup folder** - boot execution (monitor Startup directory changes)  
+
+**DLL hijacking** - library abuse (detect abnormal DLL loads, check paths)  
+**PowerShell profile** - script auto run (inspect profile files, monitor edits)  
+**Logon scripts** - login execution (review GPO scripts, check user scripts)  
+**Shortcut abuse (LNK)** - hidden execution (analyze shortcut targets, detect anomalies)  
+
+**COM hijacking** - object abuse (monitor registry CLSID changes)  
+**Browser extensions** - persistent access (audit installed extensions, check permissions)  
+
+### Rare (high-skill attacks)
+**Bootkits** - boot persistence (use EDR, check boot integrity)  
+**LSASS/Winlogon mods** - system abuse (monitor protected processes, detect injections)  
 
 <ins>**28: Incident response**</ins>   
 is the process of detecting, analyzing, and responding to security incidents.   
