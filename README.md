@@ -248,7 +248,7 @@ Reliable data transfer between adjacent nodes
 
 **1 - Physical** [Eth., USB, Bluetooth, IEEE802.11]  
 Physical data transmission media   
-⚔️ Rogue devi**ce**
+⚔️ Rogue device
 
 <ins>**41: TCP/IP**</ins>  
 📌Developed protocols then model  
@@ -258,14 +258,15 @@ Physical data transmission media
 4 - **Link** = DataLink + Physical  
 
 <ins>**42: (MAC) MEDIA ACCESS CONTROL**</ins>  
-MAC is a 48-bit hexadecimal address assigned to a network interface. A device can have multiple MAC addresses, one for each network interface (wifi/ethernet/vpn). 
+MAC is a 48-bit hexadecimal address assigned to a network interface controller. A device can have multiple MAC addresses, one for each network interface (wifi/ethernet/vpn). 
 
 <ins>**43: Address Resolution Pr. (ARP)**</ins>  
-is a protocol for mapping an IP address to a physical machine address (MAC address) that is recognized in the local network.
+is a protocol for mapping an IP address to MAC address (recognised in the LAN).
 
 <ins>**44: Spoofing**</ins>  
-is a type of attack designed to trick the user or system into thinking the hacker is a legitimate source with a valid request (Arp, Dns, email).       
-**Detected by** monitoring inconsistencies in ARP tables, such as IP-to-MAC mapping changes  
+is a type of attack designed to trick the victim into thinking the hacker is a legitimate source.   
+(Arp, Dns, email)    
+**Detected:** monitoring inconsistencies in ARP tables, such as IP-to-MAC mapping changes.   
 **Mitigations:** Dynamic arp inspection
 
 <ins>**45: Dynamic Host Configuration Protocol**</ins>  
@@ -326,7 +327,7 @@ defines how cyber threat information can be shared via services and message exch
 <ins>**59: Linux Paths**</ins>  
 /var/log/syslog - logs of the system
 
-/var/log/messages
+/var/log/messages  
 /var/log/audit/audit.log
 /var/log/boot.log
 
@@ -339,13 +340,13 @@ For SSHD: "Accepted|Failed"
 ~/.bash_history - history of the commands
 
 /etc/passwd - list of users  
-/etc/shadow - passwords. hashes: MD5, Blowfish, bcrypt , SHA-256, SHA-512.  
+/etc/shadow - passwords. hashes: MD5, Blowfish, bcrypt, SHA-256, SHA-512.  
 
 /etc/ssh/sshd_config — settings SSH  
 ~/.ssh/authorized_keys — authorised keys
 
 <ins>**60: Microsoft Paths**</ins>    
-Passwords. Hashes: LM hash, NT hash (NTLM hash), NTLMv1, NTLMv2, Kerberos AES128 key, Kerberos AES256 key, Kerberos RC4-HMAC key, MSCache (DCC), DPAPI master key, WDigest hash.   
+Passwords. Hashes: LM, NT (NTLM), NTLMv1, NTLMv2, Kerberos AES128 key, Kerberos AES256 key, Kerberos RC4-HMAC key, MSCache (DCC), DPAPI master key, WDigest.   
 Windows\System32\config\SAM  
 Windows\System32\config\SYSTEM  
 Windows\System32\lsass.exe  
@@ -369,7 +370,7 @@ is a service that manages information about user accounts in an organization.
 **World Wide Web** is a system of interconnected public webpages accessible through the Internet. 
 
 <ins>**63: What would you do if you see a suspicious PS commands? Which one are suspicious?**</ins>  
-I would first analyze the PowerShell command to understand its intent, check the process context and parent process, validate if it’s malicious using logs and EDR, and if suspicious, I would contain the endpoint, collect evidence, and escalate to L2 or incident response.
+I would first analyze the PowerShell command to understand its intent, check the process context and parent process, validate if it’s malicious using logs and EDR, and if suspicious, I would contain the endpoint, collect evidence, and escalate to L2 or incident response.  
 ➣ [Suspicious PowerShell commands](Suspicious-PS-commands.md)
 
 <ins>**64: Phishing**</ins>  
@@ -379,11 +380,11 @@ is a form of social engineering where attackers deceive people into revealing se
 PAN - Personal Area Network  
 Connects personal devices. Example: Bluetooth.  
 WPAN - Wireless Personal Area Network  
-Wireless subset of PAN. Example: ZigBee, UWB.  
+(ZigBee, UWB).  
 **LAN** - Local Area Network  
 Single building or site. High speed. Example: office Ethernet.  
 **WLAN** - Wireless Local Area Network  
-Wireless subset of LAN. Example: Wi-Fi.  
+(Wi-Fi).   
 **VLAN** - Virtual Local Area Network. Logically segments a physical LAN into isolated broadcast domains.  
 CAN - Campus Area Network  
 Connects multiple LANs across a campus (university)  
@@ -408,10 +409,10 @@ tool that monitors, captures, and analyzes data flowing over a computer network
 **Multicast** - is one-to-many where only subscribed hosts receive the traffic.
 
 <ins>**68: Proxy**</ins>  
-is a server that provides a gateway between users and the internet
+is a server that provides a gateway between users and the internet. 
 
 <ins>**69: Why deleted data not deleted**</ins>  
-Deleted data is not immediately erased; the operating system only removes file references while the actual data remains on the storage medium until it is overwritten or securely wiped.
+the operating system only removes file references while the actual data remains on the storage medium until it is overwritten or securely wiped.
 
 <ins>**70: Advanced persistent threat (APT) group**</ins>  
 is a stealthy threat, typically manipulated by a group. 
@@ -427,7 +428,7 @@ is a geographically distributed group of servers that caches content close to en
 when attacker places themself between two communicating parts. 
 
 <ins>**74: (NAT) Network Address Translation**</ins>  
-is a mechanism that translates private internal IP addresses into public IP addresses
+is a mechanism that translates private internal IP addresses into public IP addresses. 
 
 <ins>**75: Port forwarding**</ins>  
 is a method used in networking to allow external devices to connect to devices on a private network
