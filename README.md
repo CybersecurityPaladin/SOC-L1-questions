@@ -471,44 +471,55 @@ Compress first and then encrypt. Encryption produces high-entropy data that cann
 is a contract between a service provider and a customer
 
 <ins>**82: What would you do if you detected a phishing email?**</ins>  
-If a user reports a phishing email, I would collect the email details, analyze indicators like sender, links, and attachments, check if other users received it, block malicious domains or URLs, and escalate if necessary. I would also ensure the user did not interact with the email and take remediation steps if they did.
+1\. Verify indicators: sender, links, attachments, headers.  
+2\. Check if other users received this email.  
+3\. Block malicious domains, and escalate if necessary.   
+4\. Ensure the user did not interact with the email and take remediation steps if they did.  
 
 <ins>**83: You discover user clicked links in phishing email, also shared credentials.**</ins>  
-If a user clicked a phishing link and submitted credentials, I would immediately reset the password, revoke active sessions. Then I would check for suspicious logins and activity, isolate the endpoint if needed, block malicious indicators, and assess the scope across the environment. Finally, I would document and escalate if there are signs of compromise.
+1\. Immediately reset the password, revoke active sessions.  
+2. Check for suspicious logins and activity.   
+3. Isolate the endpoint if needed.  
+4. Block malicious activity.   
+5. Document and escalate if there are signs of compromise. 
 
-<ins>**84: SPM DKIM DMARC records are related to?**</ins>  
-➣ **Sender Policy Framework** is an email authentication method that helps to identify the mail servers that are allowed to send email for a given domain.   
-➣ **DomainKeys Identified Mail** is an email authentication method that uses a digital signature to let the receiver of an email know that the message was sent and authorized by the owner of a domain.   
-➣ **Domain-based Message Authentication, Reporting & Conformance** is an email authentication policy and reporting protocol. 
+<ins>**84: SPF DKIM DMARC records are related to?**</ins>  
+Methods used for Email authentication and anti-spoofing.  
+➣ **Sender Policy Framework** - sender IP validation.  
+➣ **DomainKeys Identified Mail** - email signature authentication.  
+➣ **Domain-based Message Authentication, Reporting & Conformance** - email authentication policy. 
 
 <ins>**85: How can you determine if the email spam? What is the action taken to arrest the spread of same if you have to act?**</ins>  
-I would analyze the email headers, sender reputation, links and attachments, and check authentication results like SPF, DKIM, and DMARC. If confirmed as spam or phishing, I would block the indicators, remove similar emails from other users’ inboxes, and update email security controls to prevent further spread.
+1\. Analyze the email headers, sender reputation, links and attachments.  
+2. Check SPF, DKIM, and DMARC.  
+3. If confirmed as spam or phishing remove similar emails from other users’ inboxes.  
+4. Update email security controls to prevent further spread.
 
 <ins>**86: Make a playbook for case of BEC (Business Email Compromise)**</ins>  
-**1. Trigger** - User report/Alert.   
-**2. Triage** - Collect email || Check headers.  
-**3. Containment** - Reset password || Revoke sessions.  
-**4. Investigation** - Check logins || Mail rules.  
-**5. Eradication** - Remove rules || Block domain.  
-**6. Recovery** - Restore access || Monitor activity.  
+**1. Trigger** - Alert.   
+**2. Triage** - Collect the email and check headers.  
+**3. Containment** - Reset password and revoke sessions.  
+**4. Investigation** - Review logins.  
+**5. Eradication** - Block domains.  
+**6. Recovery** - Restore access.  
 
 <ins>**87: What is Process Injection? Name some methods**</ins>  
-Process injection is an attack where the attacker copies and executes a code in the memory of a process.  
-**1. DLL Injection** - Injecting a DLL into another process — often via CreateRemoteThread.  
-**2. Process Hollowing** - A legitimate process is started → its memory is hollowed out → malware is loaded into it.  
-**3. Reflective DLL Injection** - A DLL is loaded directly into memory without being written to disk.  
-**4. Thread Injection** - Code injection by creating or modifying threads.  
-**5. APC Injection** - Injection via the Asynchronous Procedure Call (APC) queue.  
-**6. PE Injection** - Inserting an executable PE (Portable Executable) into a process's memory.  
+is an attack where the attacker copies and executes a code in the memory of a process.   
+1\. DLL Injection - injected DLL execution.  
+2. Process Hollowing - process memory replacement.  
+3. Reflective DLL Injection - in-memory DLL loading.  
+4. Thread Injection - remote thread execution.  
+5. APC Injection - asynchronous code execution.  
+6. PE Injection - injected PE execution.    
 
 <ins>**88: How would you classify a website as malicious?**</ins>  
-**1. Reputation Check** - Check blacklist status.  
-**2. Phishing Indicators** - Detect fake login.  
-**3. URL Analysis** - Inspect URL structure.  
-**4. Behavior Analysis** - Observe redirects.  
-**5. TLS Validation** - Verify certificate.  
-**6. Code Analysis** - Check obfuscated scripts.  
-**7. SE Check**  - Identify manipulation tactics.  
+1\. Reputation Check (blacklist status).  
+2. Phishing Indicators (detect fake login).  
+3. URL Analysis (inspect URL structure).  
+4. Behavior Analysis (observe redirects).  
+5. TLS Validation (verify certificate).  
+6. Code Analysis (check obfuscated scripts).  
+7. Soc. Engin. Check (identify manipulation tactics)  
 
 <ins>**89: What is drive-by-downloads?**</ins>  
 unintentional download of malicious code
@@ -517,7 +528,11 @@ unintentional download of malicious code
 HTTPS only encrypts the connection but does not guarantee that the website itself is safe or trustworthy.
 
 <ins>**91: You discover your infrastructure is under DDoS attack. What will be your resonse plan?**</ins>  
-If I detect a DDoS attack, I would first confirm the attack, then mitigate it by filtering traffic, enable DDoS protection services, and coordinate with network and ISP teams. I would also monitor the impact, maintain service availability, and analyze logs for further action. 
+1\. Confirm the attack.  
+2. Mitigate it by filtering traffic.  
+3. Enable DDoS protection services.   
+4. Monitor the impact.  
+5. Analyze logs for further action.  
 
 <ins>**92: What are different DNS Records?**</ins>  
 **DNS records** are text instructions stored on DNS servers. They indicate the IP address associated with a domain.  
@@ -531,7 +546,7 @@ If I detect a DDoS attack, I would first confirm the attack, then mitigate it by
 **PTR** — Reverse lookup.  
 
 <ins>**93: Application and OS are Vulnerable, which one will you priotize to fix and why?**</ins>  
-I would prioritize fixing the operating system first, because it provides the foundation for all applications and has the highest impact if compromised.
+Fixing the operating system first, because it provides the foundation for all applications. 
 
 <ins>**94: Can you do Network backet Analysis of HTTPS (SSL Enabled) traffic with Wireshark?**</ins>  
 Yes, I can analyze metadata such as IPs, ports, TLS handshake, and certificates.
@@ -540,29 +555,29 @@ But I cannot see the encrypted payload unless I have access to the decryption ke
 <ins>**95: What are the logs from a Linux machine you would pick for SIEM?**</ins>  
 Auth Logs, Syslog, Messages, Audit Logs, Kernel Logs, Boot Logs 
 
-<ins>**96: Credential Stuffing**</ins>  
-Is an attack method in which attackers use lists of compromised user credentials to breach into a system.
+<ins>**96: Credential Stuffing**</ins>    
+Attackers use lists of compromised user credentials to breach into a system.
 
 <ins>**97: Credential Dumping**</ins>  
-Extracting credentials (passwords or hashes) from a system, most often from the LSASS process (Local Security Authority Subsystem Service).
-What is stored there: NTLM hashes, Kerberos tickets, sometimes plaintext passwords
-Tools: mimikatz
+Extracting credentials (passwords or hashes) from a system, most often from the LSASS process (Local Security Authority Subsystem Service).  
+**What is stored there:** NTLM hashes, Kerberos tickets, sometimes plaintext passwords.  
+**Tools:** mimikatz
 
 <ins>**98: What happens when you open a website**</ins>  
-➣ DNS resolves domain to IP address.  
-➣ TCP connection is established (3-way handshake).  
-➣ TLS handshake establishes encryption (HTTPS).  
-➣ Browser sends HTTP request (encrypted if HTTPS).  
-➣ Server returns HTTP response (encrypted if HTTPS).  
-➣ Browser renders the content.   
+1\. DNS resolves domain to IP address.  
+2. TCP connection is established (3-way handshake).  
+3. TLS handshake establishes encryption (HTTPS).  
+4. Browser sends HTTP request (encrypted if HTTPS).  
+5. Server returns HTTP response (encrypted if HTTPS).  
+6. Browser renders the content.   
 
 <ins>**99: Port scanning**</ins>  
-is a method of determining which ports on a network are open and could be receiving or sending data.
+is a method of determining which ports on a network are open and could be exchanging traffic.
 
 <ins>**100: DNS exfiltration**</ins>  
 is a data exfiltration method in which an attacker uses DNS queries to covertly extract information from a compromised network.  
 **To detect DNS exfiltration:**  
-**1.** Monitor for unusually long and high-entropy domain names.  
-**2.** identify high volumes of unique subdomain queries.  
-**3.** analyse DNS query frequency and beaconing patterns.  
-**4.** check for unusual DNS record types like TXT
+**1.** Monitor for unusually domain names.  
+**2.** Identify high volumes of unique subdomain queries.  
+**3.** Analyse beaconing patterns.  
+**4.** Check for unusual DNS record types (like TXT). 
