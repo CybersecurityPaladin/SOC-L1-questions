@@ -119,8 +119,8 @@ is an attack that forces authenticated users to submit a request to a web applic
 **Indicators of Attack** - are behavioral patterns that show an attack is **happening or in progress**. 
 
 <ins>**23: FP/FN**</ins>  
-**Positive/negative** refers to the decision of the system.  
-**True/false** refers to whether the decision was correct.
+**Positive/negative** refers to the system’s decision.  
+**True or false** refers to whether the decision was correct.
 
 <ins>**24: Malware**</ins>  
 short for malicious software. It's intrusive software developed by cybercriminals. 
@@ -138,6 +138,7 @@ short for malicious software. It's intrusive software developed by cybercriminal
 **Rootkit** - hides malware   
 
 <ins>**25: How mw works**</ins>  
+Malware usually works in several stages:  
 **Execution** - run malware  
 [**Persistence**](Persistence-Malware.md) - stay on system  
 **Command and Control** - communicate with attacker  
