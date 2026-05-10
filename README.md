@@ -218,8 +218,8 @@ is a program that provides real-time event logging and monitoring.
 is a model that operates on the principle of   
 "never trust, always verify."
 
-<ins>**39: OSI model**</ins>   
-📌Developed model then protocol.   
+<ins>**39: (OSI) Open Systems Intercommunication**</ins>   
+is a conceptual model that represents how network communications work.   
 **7 - Application** [HTTP, FTP, DNS, SMTP, Telnet]  
 Providing services and interfaces to applications  
 ⚔️ SQL injection, XSS
@@ -268,7 +268,7 @@ is a type of attack designed to trick the victim into thinking the hacker is a l
 **Mitigations:** Dynamic arp inspection
 
 <ins>**44: Dynamic Host Configuration Protocol**</ins>  
-is a protocol used on Internet Protocol networks for automatically assigning IP addresses to devices connected to the network. 
+is a protocol used for automatically assigning IP addresses to devices connected to the network. 
 
 <ins>**45: Internet Protocol (IP)**</ins>  
 is a set of rules for routing and addressing packets of data. 
@@ -478,10 +478,10 @@ is a contract between a service provider and a customer
 
 <ins>**83: You discover user clicked links in phishing email, also shared credentials.**</ins>  
 1\. Immediately reset the password, revoke active sessions.  
-2. Check for suspicious logins and activity.   
-3. Isolate the endpoint if needed.  
-4. Block malicious activity.   
-5. Document and escalate if there are signs of compromise. 
+1. Check for suspicious logins and activity.   
+2. Isolate the endpoint if needed.  
+3. Block malicious activity.   
+4. Document and escalate if there are signs of compromise. 
 
 <ins>**84: SPF DKIM DMARC records are related to?**</ins>  
 Methods used for Email authentication and anti-spoofing.  
@@ -525,14 +525,14 @@ is an attack where the attacker copies and executes a code in the memory of a pr
 unintentional download of malicious code
 
 <ins>**90: Can website with Green-Lock (SSL) be dangerous?**</ins>  
-HTTPS only encrypts the connection but does not guarantee that the website itself is safe or trustworthy.
+HTTPS only encrypts the connection but does not guarantee that the website itself is safe.
 
 <ins>**91: You discover your infrastructure is under DDoS attack. What will be your resonse plan?**</ins>  
 1\. Confirm the attack.  
-2. Mitigate it by filtering traffic.  
-3. Enable DDoS protection services.   
-4. Monitor the impact.  
-5. Analyze logs for further action.  
+1. Mitigate it by filtering traffic.  
+2. Enable DDoS protection services.   
+3. Monitor the impact.  
+4. Analyze logs for further action.  
 
 <ins>**92: What are different DNS Records?**</ins>  
 **DNS records** are text instructions stored on DNS servers. They indicate the IP address associated with a domain.  
