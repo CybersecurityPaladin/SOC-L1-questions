@@ -521,7 +521,7 @@ unintentional download of malicious code
 <ins>**90: Can website with Green-Lock (SSL) be dangerous?**</ins>  
 HTTPS only encrypts the connection but does not guarantee that the website itself is safe.
 
-<ins>**91: You discover your infrastructure is under DDoS attack. What will be your resonse plan?**</ins>  
+<ins>**91: You discover your infrastructure is under DDoS attack. What will be your response plan?**</ins>  
 1\. Confirm the attack.  
 2\. Mitigate it by filtering traffic.  
 2. Enable DDoS protection services.   
