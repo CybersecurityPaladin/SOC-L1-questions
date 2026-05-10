@@ -473,7 +473,7 @@ is a contract between a service provider and a customer
 
 <ins>**83: You discover user clicked links in phishing email, also shared credentials.**</ins>  
 1\. Immediately reset the password, revoke active sessions.  
-1. Check for suspicious logins and activity.   
+2\. Check for suspicious logins and activity.   
 2. Isolate the endpoint if needed.  
 3. Block malicious activity.   
 4. Document and escalate if there are signs of compromise. 
