@@ -484,7 +484,7 @@ Methods used for Email authentication and anti-spoofing.
 ➣ **DomainKeys Identified Mail** - email signature authentication.  
 ➣ **Domain-based Message Authentication, Reporting & Conformance** - email authentication policy. 
 
-<ins>**85: How can you determine if the email spam? What is the action taken to arrest the spread of same if you have to act?**</ins>  
+<ins>**85: How can you determine if the email spam?**</ins>  
 1\. Analyze the email headers, sender reputation, links and attachments.  
 2. Check SPF, DKIM, and DMARC.  
 3. If confirmed as spam or phishing remove similar emails from other users’ inboxes.  
