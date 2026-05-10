@@ -295,9 +295,9 @@ is a vulnerability where an attacker can make the application include and read l
 protect web application by managing HTTP/S traffic between a web app and the Internet.
 
 <ins>**52: Encoding, Hashing, Encryption**</ins>  
-**Encoding:** the process of converting data or information into a specific format (ASCII, URL) for efficiency.  
-**Hashing:** the process of transforming any size of data into a unique, fixed-size string of characters using a hash function.   
-**Encryption:** the process of converting readable information into an unreadable, scrambled format using cryptographic algorithms and keys
+**Encoding:** the process of converting data into a specific format (ASCII, URL) for efficiency.  
+**Hashing:** the process of converting data into a unique, fixed-size string using a hash function.   
+**Encryption:** the process of converting readable information into an unreadable using cryptographic algorithms and keys
 
 <ins>**53: Salted Hashes**</ins>  
 is a cryptographic hash produced by applying a hash function to a password combined with a unique random value (salt). For generate different hash outputs.
