@@ -308,7 +308,7 @@ is a cryptographic hash produced by applying a hash function to a password combi
 of analysing malicious software by running it.
 
 <ins>**55: (CTI) Cyber Threat intelligence**</ins>  
-is the process of collecting, analyzing, and applying data on cyber threats, adversaries, and attack methodologies.  
+is the process of collecting, analyzing, and applying data on cyber threats. 
 Platforms: [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/),
 [Cisco Talos](https://talosintelligence.com/),
 [OTX AlienVault](https://otx.alienvault.com/). 
