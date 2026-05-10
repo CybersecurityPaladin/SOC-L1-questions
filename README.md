@@ -523,7 +523,7 @@ HTTPS only encrypts the connection but does not guarantee that the website itsel
 
 <ins>**91: You discover your infrastructure is under DDoS attack. What will be your resonse plan?**</ins>  
 1\. Confirm the attack.  
-1. Mitigate it by filtering traffic.  
+2\. Mitigate it by filtering traffic.  
 2. Enable DDoS protection services.   
 3. Monitor the impact.  
 4. Analyze logs for further action.  
@@ -559,8 +559,8 @@ Extracting credentials (passwords or hashes) from a system, most often from the 
 
 <ins>**98: What happens when you open a website**</ins>  
 1\. DNS resolves domain to IP address.  
-2. TCP connection is established (3-way handshake).  
-3. TLS handshake establishes encryption (HTTPS).  
+2\. TCP connection is established (3-way handshake).  
+3\. TLS handshake establishes encryption (HTTPS).  
 4. Browser sends HTTP request (encrypted if HTTPS).  
 5. Server returns HTTP response (encrypted if HTTPS).  
 6. Browser renders the content.   
