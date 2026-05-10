@@ -514,7 +514,6 @@ is an attack where the attacker copies and executes a code in the memory of a pr
 4. Behavior Analysis (observe redirects).  
 5. TLS Validation (verify certificate).  
 6. Code Analysis (check obfuscated scripts).  
-7. Soc. Engin. Check (identify manipulation tactics)  
 
 <ins>**89: What is drive-by-downloads?**</ins>  
 unintentional download of malicious code
