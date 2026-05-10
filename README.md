@@ -314,7 +314,7 @@ Platforms: [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/),
 [OTX AlienVault](https://otx.alienvault.com/). 
 
 <ins>**56: (TAXII) Trusted Automated eXchange of Intelligence Information**</ins>  
-defines how cyber threat information can be shared via services and message exchanges.
+defines how cyber threat information can be shared via services.
 
 <ins>**57: Types of Threat Intelligence**</ins>  
 ➣ **Strategic** Threat Intelligence.  
