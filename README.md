@@ -300,7 +300,7 @@ protect web application by managing HTTP/S traffic between a web app and the Int
 **Encryption:** the process of converting readable information into an unreadable using cryptographic algorithms and keys
 
 <ins>**53: Salted Hashes**</ins>  
-is a cryptographic hash produced by applying a hash function to a password combined with a unique random value (salt). For generate different hash outputs.
+is a hash produced by applying a hash function to a password combined with a unique random value (salt). For generate different hash outputs.
 
 <ins>**54: Static and dynamic malware analysis**</ins>  
 **Static Analysis:** It is the approach of analyzing malicious software by reverse engineering methods without running them. by decompiling/disassembling  
