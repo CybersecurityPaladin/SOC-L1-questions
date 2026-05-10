@@ -274,7 +274,7 @@ is a protocol used for automatically assigning IP addresses to devices connected
 is a set of rules for routing and addressing packets of data. 
 
 <ins>**46: KERBEROS**</ins>  
-is a network authentication protocol that uses cryptography to authenticate users and services in a network environment.  
+is an authentication protocol that uses cryptography to authenticate users and services in a network environment.  
 ➣ [How KERBEROS works](screenshots/Kerberos.PNG)   
 ➣ [Kerebros Attacks](Kerberos-Attacks.md)
 
