@@ -282,7 +282,7 @@ is an authentication protocol that uses cryptography to authenticate users and s
 is a standard awareness document for developers and web application security. ([OWASP](https://owasp.org/))
 
 <ins>**48: (IDOR) Insecure Direct Object Reference**</ins>  
-is a vulnerability caused by the lack of an authorization mechanism. When a user can change an id and access another user’s data.  
+is a vulnerability caused by the lack of an authorization mechanism. When an attacker can change an id and access another user’s data.  
 ➣ [IDOR Attacks here](IDOR-Attacks.md)
 
 <ins>**49: (RFI) Remote File Inclusion**</ins>  
