@@ -326,7 +326,7 @@ defines how cyber threat information can be shared via services.
 /var/log/syslog - logs of the system
 
 /var/log/messages  
-/var/log/audit/audit.log
+/var/log/audit/audit.log  
 /var/log/boot.log
 
 /var/log/auth.log - authentication logs  
