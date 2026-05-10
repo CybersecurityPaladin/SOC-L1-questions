@@ -491,8 +491,8 @@ Methods used for Email authentication and anti-spoofing.
 4. Update email security controls to prevent further spread.
 
 <ins>**86: Make a playbook for case of BEC (Business Email Compromise)**</ins>  
-**1. Trigger** - Alert.   
-**2. Triage** - Collect the email and check headers.  
+**1. Trigger** - Check Alerts.   
+**2. Triage** - Collect the email and analyse.  
 **3. Containment** - Reset password and revoke sessions.  
 **4. Investigation** - Review logins.  
 **5. Eradication** - Block domains.  
