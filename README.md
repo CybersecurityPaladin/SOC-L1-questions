@@ -292,7 +292,7 @@ is a vulnerability where an attacker can make the application include and execut
 is a vulnerability where an attacker can make the application include and read local files on the server by manipulating file path input. 
 
 <ins>**51: (WAF) Web Application Firewall**</ins>   
-protect web application by filtering and monitoring HTTP traffic between a web application and the Internet.
+protect web application by managing HTTP/S traffic between a web app and the Internet.
 
 <ins>**52: Encoding, Hashing, Encryption**</ins>  
 **Encoding:** the process of converting data or information into a specific format (ASCII, URL) for efficiency.  
