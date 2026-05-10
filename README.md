@@ -348,14 +348,9 @@ Passwords. Hashes: LM, NT (NTLM), NTLMv1, NTLMv2, Kerberos AES128 key, Kerberos 
 Windows\System32\config\SAM  
 Windows\System32\config\SYSTEM  
 Windows\System32\lsass.exe  
-Windows\NTDS\NTDS.dit  
-
-Logs:  
-C:\Windows\System32\winevt\Logs\
-
-Viruses:  
- C:\Windows\Temp\
-C:\Users\username\AppData\Local\Temp\
+Windows\NTDS\NTDS.dit   
+C:\Windows\System32\winevt\Logs\   
+C:\Users\<user>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 <ins>**60: Active Directory**</ins>  
 is a service that manages information about user accounts in an organization.  
