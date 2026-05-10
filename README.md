@@ -569,7 +569,7 @@ Extracting credentials (passwords or hashes) from a system, most often from the 
 is a method of determining which ports on a network are open and could be exchanging traffic.
 
 <ins>**100: DNS exfiltration**</ins>  
-is a data exfiltration method in which an attacker uses DNS queries to covertly extract information from a compromised network.  
+is a method to take data out of the system via DNS queries.     
 **To detect DNS exfiltration:**  
 **1.** Monitor for unusually domain names.  
 **2.** Identify high volumes of unique subdomain queries.  
