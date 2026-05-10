@@ -421,7 +421,7 @@ is a geographically distributed group of servers that caches content close to en
 (Cloud-flare)
 
 <ins>**72: (MITM) Man-in-the-middle**</ins>    
-when attacker places themself between two communicating parts. 
+Attack where an attacker places themself between two communicating parts. 
 
 <ins>**73: (NAT) Network Address Translation**</ins>  
 is a mechanism that translates private internal IP addresses into public IP addresses. 
