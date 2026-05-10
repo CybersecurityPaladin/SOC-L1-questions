@@ -438,7 +438,7 @@ is a method used to allow external devices to connect to devices on a private ne
 **3.** Flashing. Combination of flashes. CH341A+SOIC8+1.8VAdapter
 
 <ins>**76: BitLocker**</ins>  
-Is a Windows security feature that protects your data by encrypting your drives
+Is a Windows security feature that protects data by encrypting drives
 
 <ins>**77: Detect malicious activity around both SAM and passwd/shadow file?**</ins>  
 **Windows:**  
