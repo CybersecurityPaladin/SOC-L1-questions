@@ -424,7 +424,7 @@ is a geographically distributed group of servers that caches content close to en
 Attack where an attacker places themself between two communicating parts. 
 
 <ins>**73: (NAT) Network Address Translation**</ins>  
-is a mechanism that translates private internal IP addresses into public IP addresses. 
+is a mechanism that translates private IP addresses into public IP addresses. 
 
 <ins>**74: Port forwarding**</ins>  
 is a method used to allow external devices to connect to devices on a private network. 
