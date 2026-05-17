@@ -3,7 +3,7 @@
 <ins>**1: What are the key responsibilities of a SOC analyst?**</ins>  
 Responsibilities include **monitoring** alerts, **investigating** potential threats, **conducting** vulnerability assessments and **IR**.
 
-$${\color{white}kfmvkdf}$$
+$${\color{white}drreg kfmvkdf}$$
 
 <ins>**2: (VA) Vulnerability assessment**</ins>  
 is the process of identifying security weaknesses in systems to determine their severity.
