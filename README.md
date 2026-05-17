@@ -1,6 +1,6 @@
 # Cybersecurity SOC Analyst (L1) questions
 
-$${\color{white}<ins>**1: What are the key responsibilities of a SOC analyst?**</ins>  
+<ins>**1: What are the key responsibilities of a SOC analyst?**</ins>  
 Responsibilities include **monitoring** alerts, **investigating** potential threats, **conducting** vulnerability assessments and **IR**.
 
 <ins>**2: (VA) Vulnerability assessment**</ins>  
@@ -574,4 +574,5 @@ is a method to take data out of the system via DNS queries.
 **1.** Monitor for unusually domain names.  
 **2.** Identify high volumes of unique subdomain queries.  
 **3.** Analyse beaconing patterns.  
-**4.** Check for unusual DNS record types (like TXT).}$$
+**4.** Check for unusual DNS record types (like TXT).
+$${\color{white}**4.** Check for unusual DNS record types (like TXT).}$$
