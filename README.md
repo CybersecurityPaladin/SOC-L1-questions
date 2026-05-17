@@ -1,7 +1,7 @@
 # Cybersecurity SOC Analyst (L1) questions
 
 <ins>**1: What are the key responsibilities of a SOC analyst?**</ins>  
-$${\color{white}Responsibilities include **monitoring** alerts, **investigating** potential threats, **conducting** vulnerability assessments and **IR**.}$$
+$${\color{white}"Responsibilities include **monitoring** alerts, **investigating** potential threats, **conducting** vulnerability assessments and **IR**."}$$
 
 $${\color{white}drreg kfmvkdf}$$
 
