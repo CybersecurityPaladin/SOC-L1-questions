@@ -1,7 +1,7 @@
 # Cybersecurity SOC Analyst (L1) questions
 
-**Check out this video if you're too lazy to read!**
-https://www.youtube.com/playlist?list=PLrGupBUvKgZX6n_TZZOLNVdXWcV0qR55e
+**Check out this video if you're too lazy to read**  
+[Cybersecurity SOC Analyst (L1) questions](https://www.youtube.com/playlist?list=PLrGupBUvKgZX6n_TZZOLNVdXWcV0qR55e)
 
 <ins>**1: What are the key responsibilities of a SOC analyst?**</ins>   
 Responsibilities include **monitoring** alerts, **investigating** potential threats, **conducting** vulnerability assessments and **IR**.
